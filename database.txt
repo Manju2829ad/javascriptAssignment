@@ -1,0 +1,44 @@
+1. What is a database plain with an example on why we need a database?
+A database is a collection of organized data that can be easily accessed, managed, and updated. Example: A library's catalog system is a database that stores information about books, authors, and borrowers.
+Why we need a database: To efficiently store, retrieve, and manage large amounts of data, and to ensure data consistency, accuracy, and security.
+
+2. Write a short note on file-based storage system. Plain the major challenge of a file-based storage system.
+A file-based storage system stores data in individual files, each with its own format and structure. Major challenge: Data redundancy, data inconsistency, and difficulty in managing data relationships.
+
+
+3. What is DBMS? What was the need for DBMS?
+ DBMS (Database Management System) is software that manages and controls access to a database. Need for DBMS: To overcome the limitations of file-based storage systems, ensure data integrity, security, and provide a structured way of managing data.
+
+4.Explain the challenge of file-based storage system which was tackled by DBMS.
+Challenges:
+Data redundancy and inconsistency
+Difficulty in managing data relationships
+Data security and integrity issues
+Limited data sharing and collaboration
+DBMS tackled these challenges by providing a centralized repository, enforcing data consistency, supporting data relationships, and ensuring data security and integrity.
+
+5.List out the different types of classification in DBMS and explain.
+Types of classification in DBMS:
+Hierarchical DBMS
+Network DBMS
+Relational DBMS
+Object-Oriented DBMS
+NoSQL DBMS
+Each type has its own data model, schema, and querying language.
+
+
+6.What is the significance of Data Modeling and explain the types of Data Modeling?
+Data Modeling represents the structure and relationships of data in a database. Significance: Ensures data consistency, improves data quality, and facilitates communication among stakeholders.
+Types of Data Modeling:
+Conceptual Data Modeling
+Logical Data Modeling
+Physical Data Modeling
+
+7.Explain 3 schema architectures along with their advantages.
+Schema architectures:
+Star Schema:
+Advantages: Simple, easy to implement, and fast query performance.
+Snowflake Schema:
+Advantages: Improves data integrity, reduces data redundancy, and supports complex queries.
+3NF (Third Normal Form) Schema:
+Advantages: Eliminates data redundancy, improves data integrity, and supports data independence.
